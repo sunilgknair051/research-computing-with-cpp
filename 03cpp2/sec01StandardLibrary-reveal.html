@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>C++ Standard Library</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/night.css"/>
+    <link rel="stylesheet" href="/research-computing-with-cpp//css/ucl_reveal.css"/>
+    <link rel="stylesheet" href="/research-computing-with-cpp//site-styles/reveal.css"/>
+  <link rel="stylesheet" media="print" href="http://lab.hakim.se/reveal-js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">C++ Standard Library</h1>
+    <h3 class="date"></h3>
+</section>
+
+<section><section id="c-standard-library" class="titleslide slide level2"><h1>C++ Standard Library</h1></section><section id="what-is-it" class="slide level3">
+<h1>What is it</h1>
+<ul>
+<li>A collection of:</li>
+<li>Containers (e.g. <code>std::vector</code>, <code>std::array</code>, <code>std::map</code>, ...)</li>
+<li>Methods to manipulate these containers (e.g. <code>std::sort</code>, <code>std::find_if</code>)</li>
+<li>Strings (<code>std::string</code>) and streams (e.g. <code>std::cout</code>, <code>std::endl</code>, ...)</li>
+<li><p>Function objects (e.g. arithmetic operations, comparisons and logical operations, ...)</p></li>
+<li>Part of the ISO Standard itself so it has to be implemented to be called C++</li>
+<li>Can include in your code by simply adding the relevant <code>#include &lt;headername&gt;</code> and then using the <code>std::</code> namespace</li>
+<li><p>A list of these headers can be found at <a href="https://en.cppreference.com/w/cpp/header">https://en.cppreference.com/w/cpp/header</a></p></li>
+</ul>
+</section><section id="homework---13" class="slide level3">
+<h1>Homework - 13</h1>
+<ul>
+<li>Write short code snippets that use:</li>
+<li>Containers <code>&lt;array&gt;</code>, <code>&lt;vector&gt;</code> and <code>&lt;map&gt;</code><br /></li>
+<li>The <code>&lt;random&gt;</code> number generator library</li>
+<li>The <code>&lt;iostream&gt;</code> to read in a string from the terminal and output it to screen</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'night', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'http://lab.hakim.se/reveal-js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'http://lab.hakim.se/reveal-js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>
