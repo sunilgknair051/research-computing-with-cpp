@@ -1,6 +1,4 @@
----
-title: Tools for pretty code
----
+# Tools for pretty code
 
 ## Tools for pretty code
 

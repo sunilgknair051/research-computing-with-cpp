@@ -1,21 +1,19 @@
----
-title: CMakeCatchTemplate
----
+# CMakeCatchTemplate
 
 ## CMakeCatchTemplate
 
-### Intro 
+### Introduction
 
-* Demo project on [GitHub](https://github.com): [CMakeCatchTemplate](https://github.com/MattClarkson/CMakeCatchTemplate)
+* Demo project on **[GitHub](<https://github.com>)**: **[CMakeCatchTemplate](<https://github.com/MattClarkson/CMakeCatchTemplate>)**
 * No functional code, other than adding 2 numbers
-* Basically shows how to use CMake, via various examples.
+* Basically shows how to use **CMake**, via various examples.
 
 
 ### Features
 
-* Full feature list in [README.md](https://github.com/MattClarkson/CMakeCatchTemplate/blob/master/README.md)
+* Full feature list in **[README.md](<https://github.com/MattClarkson/CMakeCatchTemplate/blob/master/README.md>)**
 * SuperBuild:
-    * Downloads Boost, Eigen, glog, gflags, OpenCV, PCL, FLANN, VTK
+    * Downloads ```Boost, Eigen, glog, gflags, OpenCV, PCL, FLANN, VTK```
 * Example GUI apps (beyond scope of course)
 * Unit testing
 
@@ -28,10 +26,10 @@ title: CMakeCatchTemplate
 * If ```ON```
     * Dependencies in current folder
     * Compiles *this* project in sub-folder
-* Try it, in separate build folders.
+* Try it, in separate build folders
 
 
-### Homework - 10 
+### Homework - 24
 
 Setup folders like:
 
@@ -44,7 +42,7 @@ Setup folders like:
 ```
 
 * Ensure ```BUILD_SUPERBUILD=ON```
-* Try turning a small library like ```BUILD_gflags``` to ON
+* Try turning a small library like ```BUILD_gflags``` to **ON**
 * Run the build in the ```SuperBuild``` folder
 * Look on disk, see how the dependencies are compiled in the ```CMakeCatchTemplate-SuperBuild``` folder.
 * Then look in sub-folder ```MYPROJECT-build``` to see how this project is build, using the dependencies in the folder above.

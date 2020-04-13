@@ -2,7 +2,7 @@
 
 ## Micro-benchmarking
 
-### Introduction
+**Introduction**
 
 meaningful bit of code, and systematically run performance tests for each
 Scientific method applied to performance: measure the time taken by each
@@ -13,9 +13,11 @@ Profiling can tell us what part to include in a benchmark.
 Possible micro-benchmarking frameworks:
 
 - timers in unit test framework (not really accurate)
-- [google/benchmark](https://github.com/google/benchmark)
-- [hayai](https://github.com/nickbruun/hayai), a "google-test"-like framework
-- [others](http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html)
+- **[google/benchmark](https://github.com/google/benchmark)**
+- **[hayai](https://github.com/nickbruun/hayai)**, a "google-test"-like framework
+- **[others](http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html)**
+
+## Micro-benchmarking
 
 Questions micro-benchmarking can answer:
 
@@ -28,7 +30,7 @@ Questions it doesn't always answer:
 1. Performance of large subsets or whole application
 1. Parallelization: communication vs computation
 
-### Exercise: build and run `micro_benchmark`
+## Homework 27: build and run `micro_benchmark`
 
 `micro_benchmark` reproduces the evaluation function from the travelling
 salesman problem.
@@ -39,6 +41,8 @@ It reproduces how a micro-benchmark framework works:
 1. run code N' times for actual measurement
 
 Make sure the code is built in `Release` mode.
+
+## Homework 27: build and run `micro_benchmark`
 
 Questions:
 
